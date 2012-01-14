@@ -6,6 +6,8 @@ RemoteControlServer is the server half of a blind VNC project. A user will be ab
 Protocol
 ========
 
+This server uses a TCP socket to receive commands from a remote client. Each line (denoted by a line feed character) starts with a command name, a colon, and arguments. Here are the commands that are currently supported:
+
 * Mouse move event - move:x,y
 * Mouse click event - mouse:MouseEvent
 * Keyboard event - key:KeyCode

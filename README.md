@@ -1,4 +1,4 @@
-Title
+RemoteControlServer
 =====
 
 RemoteControlServer is the server half of a blind VNC project. A user will be able to run the server on a computer, and locally be able to send it mouse event, keyboard event, and mouse movement data. 
